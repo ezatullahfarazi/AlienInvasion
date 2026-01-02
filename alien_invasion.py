@@ -28,7 +28,7 @@ class AlienInvasion:
     def run_game(self):
         """Start the game loop."""
         while True:
-            self.check_events()
+            self._check_events()
             self._update_screen()
             self.clock.tick(60)
 
